@@ -9,7 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "template",
+    "open source",
+    "node",
+    "project"
+  ],
   "author": "Nir Adler",
   "license": "MIT",
   "repository": {
