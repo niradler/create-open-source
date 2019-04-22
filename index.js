@@ -21,6 +21,7 @@ const commands = ({
   `npx gitignore node`,
   `npx covgen "${email}"`,
   `npm init -y`,
+  `echo "# New Project"  > readme.md`,
   "git add -A",
   'git commit -m "Initial commit"'
 ];
