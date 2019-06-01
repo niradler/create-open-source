@@ -1,10 +1,10 @@
 {
   "name": "create-open-source",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "bootstrap new open source project.",
   "main": "index.js",
   "bin": {
-    "create-open-source": "index.js"
+    "create-open-source": "./src/create-open-source.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/niradler/create-open-source/issues"
   },
-  "homepage": "https://github.com/niradler/create-open-source#readme"
+  "homepage": "https://github.com/niradler/create-open-source#readme",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  }
 }
